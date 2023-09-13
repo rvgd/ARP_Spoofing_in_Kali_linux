@@ -6,6 +6,16 @@ import argparse
 import time
 #  input: 192.168.178.179   192.168.178.126
 
+print("      AAAAAA        RRRRRRRR       PPPPPPPP       SSSSSSSS        PPPPPPPP        OOOOOO         OOOOOO        FFFFFFFF        EEEEEEEE        RRRRRRRR")
+print("     AAA  AAA       RR    RR       PP    PP       SS              PP    PP       OO    OO       OO    OO       FF              EE              RR    RR")
+print("    AAA    AAA      RR    RR       PP    PP       SS              PP    PP       OO    OO       OO    OO       FF              EE              RR    RR")
+print("   AAAAAAAAAAAA     RRRRRRR        PPPPPPP        SSSSSSSS        PPPPPPP        OO    OO       OO    OO       FFFFFFFF        EEEEEEEE        RRRRRR")
+print("  AAA        AAA    RR  RR         PP                   SS        PP             OO    OO       OO    OO       FF              EE              RR  RR")
+print(" AAA          AAA   RR   RR        PP                   SS        PP             OO    OO       OO    OO       FF              EE              RR   RR")
+print("AAA            AAA  RR    RR       PP             SSSSSSSS        PP              OOOOOO         OOOOOO        FF              EEEEEEEE        RR    RR")
+print("                                                                                                                                                  -rvgd  ")
+print("[+] ARP spoofer starts...\n")
+
 def get_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i" , "--interface" , dest="interface" , help=" Interface used to attack.")
